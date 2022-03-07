@@ -55,10 +55,10 @@ def prime(number):
     if number >1:
         for i in range(2, int(number/2)+1):
             if (number % i) == 0:
-                return False
+                return "False"
                 break
         else:
-            return True
+            return "True"
     else:
         return "ERROR: The value you have inserted is not a PRIME number! Please insert an integer GREATER than 1"
     
